@@ -1,7 +1,5 @@
 #!/bin/sh
 
-NODE_PATH=. \
-NODE_ENV=test \
 $(npm bin)/mocha \
   --compilers js:app/utils/tests/compiler.js \
   --require source-map-support/register \

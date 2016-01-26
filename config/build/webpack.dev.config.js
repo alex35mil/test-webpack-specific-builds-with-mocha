@@ -36,7 +36,8 @@ export default {
     loaders: [
       {
         test   : /\.jsx?$/,
-        loaders: [ 'babel' ],
+        loader: 'babel',
+        query: { presets: 'react-hmre' },
         exclude: /node_modules/,
       },
       {

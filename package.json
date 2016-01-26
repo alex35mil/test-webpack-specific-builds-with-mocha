@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Testing webpack specific code with mocha",
   "private": true,
-  "repository": "",
+  "repository": "https://github.com/alexfedoseev/test-webpack-specific-builds-with-mocha",
   "main": "server.js",
   "scripts": {
     "start": "scripts/start",
