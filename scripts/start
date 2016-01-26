@@ -1,0 +1,5 @@
+#!/bin/sh
+
+NODE_PATH=. \
+$(npm bin)/babel-node \
+  server.js

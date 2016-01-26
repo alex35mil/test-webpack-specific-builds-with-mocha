@@ -1,0 +1,39 @@
+$font-color: #fff;
+$bg-color: #29d;
+
+body {
+  font: 20px/1.4 Tahoma, Helvetica, Arial, sans-serif;
+}
+
+input,
+textarea {
+  border: 0;
+  border-bottom: 1px solid #eee;
+  padding: .5em;
+  width: 100%;
+}
+
+button {
+  border: 0;
+  border-radius: 0;
+  background-color: $bg-color;
+  text-decoration: none;
+  text-shadow: 0 0 1px rgba(0, 0, 0, .5);
+  line-height: normal;
+  color: $font-color;
+
+  &:focus {
+    box-shadow: none;
+  }
+
+  &:active {
+    transform: translate(0, 1px);
+  }
+
+  &:disabled {
+    border: 0 !important;
+    background-color: rgba($bg-color, .45) !important;
+    text-shadow: none !important;
+    color: rgba($font-color, .5) !important;
+  }
+}
